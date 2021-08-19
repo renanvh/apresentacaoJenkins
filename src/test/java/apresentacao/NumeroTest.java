@@ -15,9 +15,4 @@ public class NumeroTest {
         Assertions.assertTrue(Numero.checkEven(4));
     }
 
-    @Test
-    public void dadoNumero5testaPar_deveRetornarTrue(){
-        Assertions.assertTrue(Numero.checkEven(5));
-    }
-
 }
